@@ -139,4 +139,98 @@ main section {
     width: 70%;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 20px;
 }
+
+/* footer style */
+ /* footer{
+    display: flex;
+    background-color: #f1e3d8;
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.footer-contact-section{
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+}
+.footer-form-section{
+    border: 2px solid green;
+    padding: 20px;
+    justify-content: space-around;
+}   */
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1e3d8;
+    padding: 40px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .footer-contact-section, .footer-form-section {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-contact-section h1, .footer-form-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .footer-contact-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #474747;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer-form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer-form-section input[type="text"],
+  .footer-form-section input[type="email"],
+  .footer-form-section textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .footer-form-section input[type="text"]:focus,
+  .footer-form-section input[type="email"]:focus,
+  .footer-form-section textarea:focus {
+    border-color: rgb(235, 157, 12);
+    outline: none;
+  }
+  
+  .footer-form-section textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .submit-btn {
+    display: flex;
+    justify-content: center;
+
