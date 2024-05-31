@@ -1,51 +1,142 @@
-body{
-      font-family: "Open Sans", sans-serif;      
-    }
-
-.text-primary{
-    color: rgb(235, 157, 12);
+body {
+  font-family: "Open Sans", sans-serif;
 }
-.btn-primay{
-    background-color: rgb(235, 157, 12);
-    border-radius: 5px;
-    font-size: 20px;
-    border: 0;
-    color: white;
-    padding: 15px 35px;
+
+.text-primary {
+  color: rgb(235, 157, 12);
+}
+.btn-primay {
+  background-color: rgb(235, 157, 12);
+  border-radius: 5px;
+  font-size: 20px;
+  border: 0;
+  color: white;
+  padding: 15px 35px;
 }
 /* nav style related */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
-.nav-title{
-    color: rgb(14, 13, 13);
-    font-size: 45px;
-    font-weight: 800px;
+.nav-title {
+  color: rgb(14, 13, 13);
+  font-size: 45px;
+  font-weight: 800px;
 }
-nav>ul{
-    display: flex;
-    align-items: center;   
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
+nav li {
+  list-style: none;
+  margin-right: 50px;
 }
-nav a{
-    text-decoration: none;
-    color: #474747;
+nav a {
+  text-decoration: none;
+  color: #474747;
 }
 /* header related style */
-.header{
-    background-color:#f1e3d8;
+.header {
+  background-color: #f1e3d8;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-    padding:30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner .profile_picture{
-    width: 500px;
+.banner .profile_picture {
+  width: 500px;
+}
+.bannner_content {
+  max-width: 500px;
+}
+.banner_gritting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/* .banner_discription */
+
+/* main section styles*/
+main section {
+  margin-top: 130px;
+}
+/* about section styles */
+
+.about {
+  background-color: #f1e3d8;
+  width: 70%;
+  margin: 0 auto;
+}
+.section_title {
+  text-align: center;
+}
+.section_description {
+  text-align: center;
+}
+.about_info_container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+.section_what_i_do {
+  /* background-color:#f1e3d8; */
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* skill container style */
+.skill-container {
+  display: flex;
+  gap: 24px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skill {
+  padding: 30px;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(63, 65, 62, 0.5);
+}
+/* resumi section styles */
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  width: 70%;
+  margin: 0 auto;
+}
+.resume-container {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+
+  text-align: center;
+}
+.resume-column {
+  text-align: center;
+  padding: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+.download-cv{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
 }
